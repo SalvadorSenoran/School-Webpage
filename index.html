@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Webpage: Webpage Enhancement</title>
+    <style>
+        body{
+            background-color: #19376D;
+            margin: 20px 20px 20px 20px;
+        }
+
+        p{
+            color: #DDE6ED;
+        }
+
+        ul{
+            color: #DDE6ED;
+        }
+
+        #paragraph {
+            margin-left: 10px;
+        }
+
+        #mission-statement:hover{
+            color: #0B2447;
+            background-color: #9DB2BF;
+            box-shadow: 0px 1px 10px black;
+        }
+
+        #upcoming-events:hover{
+            color: #0B2447;
+            background-color: #9DB2BF;
+            box-shadow: 0px 1px 10px black;
+        }
+
+        #contact-us:hover{
+            color: #0B2447;
+            background-color: #9DB2BF;
+            box-shadow: 0px 1px 10px black;
+        }
+
+        #phone-number a{
+            text-decoration: none;
+            color: #A5D7E8;
+        }
+
+        #phone-number a:hover{
+            text-decoration: underline;
+        }
+
+        #email a{
+            text-decoration: none;
+            color: #A5D7E8;
+        }
+
+        #email a:hover{
+            text-decoration: underline;
+        }
+
+        #website a{
+            text-decoration: none;
+            color: #A5D7E8;
+        }
+
+        #website a:hover{
+            text-decoration: underline;
+        }
+
+        h1{
+            font-size: 24px;
+            font-weight: bold;
+            color: #A5D7E8;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #0B2447;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        #mission-statement{
+            color: #9DB2BF;
+            background-color: #0B2447;
+            padding: 10px;
+            width: 190px;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px black;
+            transition: 0.1s;
+        }
+
+        #upcoming-events{
+            color: #9DB2BF;
+            background-color: #0B2447;
+            padding: 10px;
+            width: 185px;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px black;
+            transition: 0.1s;
+        }
+
+        #contact-us{
+            color: #9DB2BF;
+            background-color: #0B2447;
+            padding: 10px;
+            width: 115px;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px black;
+            transition: 0.1s;
+        }
+
+        span{
+            font-weight: bold;
+            color: #A5D7E8;
+        }
+
+        .outdoor{
+            background-color: #0B2447;
+            padding: 5px;
+            border: 1px solid #0B2447;
+            border-radius: 5px;
+        }
+
+        .section{
+            background-color: #0B2447;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sunnydale School</h1>
+
+    <br>
+
+    <h2 id="mission-statement">Mission Statement</h2>
+    <p id="paragraph">
+        Our school is dedicated to nurturing well-rounded individuals who are academically competent, socially <br>
+        responsible, and globally aware. We strive to provide quality education that fosters lifelong learning, critical <br>
+        thinking, and moral integrity. Guided by our values of excellence, respect, and service, we aim to prepare <br>
+        students to become productive members of society.
+    </p>
+
+    <h2 id="upcoming-events">Upcoming Events</h2>
+    <ul>
+        <li data-event-type="indoor" title="Event Type: Indoor">Teachers’ Day Celebration - <span>October 5, 2025</span></li>
+        <hr>
+        <li data-event-type="outdoor" class="outdoor" title="Event Type: Outdoor">Intramurals Week - <span>November 10-14, 2025</span></li>
+        <hr>
+        <li data-event-type="indoor" title="Event Type: Indoor">Christmas Program & Outreach Activity - <span>December 15, 2025</span></li>
+        <hr>
+        <li data-event-type="outdoor" class="outdoor" title="Event Type: Outdoor">Recognition Day - <span>March 20, 2026</span></li>
+        <li data-event-type="outdoor" class="outdoor" title="Event Type: Outdoor">Graduation & Moving-Up Ceremony - <span>April 2, 2026</span></li>
+    </ul>
+
+    <h2 id="contact-us">Contact Us</h2>
+    <div class="section">
+        <p title="School address">Address: <br> Sunnydale School, Anabu 1, Imus City, Imus, Philippines</p>
+        <p id="phone-number">Phone Number: <br>
+            <a href="(012) 345-6789" title="Click to copy phone number">(012) 345-6789</a>
+        </p>
+        <p id="email">Email: <br>
+            <a href="sunnydaleschool@edu.ph" title="Click to copy email">sunnydaleschool@edu.ph</a>
+        </p>
+        <p id="website">Website: <br>
+            <a href="sunnydaleschool.edu.ph" title="Click to copy website link">sunnydaleschool.edu.ph</a>
+        </p>
+    </div>
+
+        <!--Imagine clicking here shows a message: 'Thanks for reaching out!'-->
+</body>
+</html>
